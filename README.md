@@ -1,5 +1,5 @@
 # Speech to text
-A simple script to transcribe speech (US english) to a text file using Wit.ai for speech recognition.
+A simple script to transcribe speech to a text file using Wit.ai for speech recognition.
 
 ## Requirements
 
@@ -9,15 +9,15 @@ A simple script to transcribe speech (US english) to a text file using Wit.ai fo
 
 ## Setup
 
-Install python, pip and ffmpeg (see notes).
-Create a wit.ai account, app and intent (see notes).
-Inside the folder, run `pip install -r requirements.txt` to install the dependencies.
-Add the video files that you want to transcribe to the folder.
+- Install python, pip and ffmpeg (see notes).
+- Create a wit.ai account, app and intent (see notes).
+- Inside the folder, run `pip install -r requirements.txt` to install the dependencies.
+- Add the video files that you want to transcribe to the folder.
 
 ## Usage
 
 Add your API key into the file transcribe.py.
-Run `python transcribe.py filename.mp4` and it will export a txt file with the transcription created with Google Speech Recognition.
+Run `python transcribe.py filename.mp4` and it will export a .txt file with the transcription.
 
 ## Notes
 
