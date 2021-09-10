@@ -1,5 +1,5 @@
 # Speech to text
-A simple script to transcribe speech to a text file using Wit.ai for speech recognition.
+A simple script to transcribe speech from a video file to a text file using Wit.ai for speech recognition.
 
 ## Requirements
 
